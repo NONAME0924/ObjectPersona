@@ -1,0 +1,42 @@
+# --- Internal Documentation (Excluded from Git) ---
+InternalDocs/
+
+# --- IDE & Build Artifacts ---
+.idea/
+.gradle/
+**/build/
+*.iml
+.DS_Store
+
+# --- Android Specific ---
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aar
+
+# --- Large Files / Models ---
+**/models/*.litertlm
+**/models/*.tflite
+**/models/*.bin
+
+# --- Others (Logs, Temps, Backups) ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# --- Secrets & Keys ---
+*.jks
+*.keystore
+secrets.xml
+google-services.json
+mock-*.json
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini

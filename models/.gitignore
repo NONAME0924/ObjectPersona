@@ -1,0 +1,5 @@
+# Ignore model binaries (too large for Git)
+*.litertlm
+*.bin
+*.tflite
+*.onnx

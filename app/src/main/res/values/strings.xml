@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ObjectPersona</string>
+
+    <!-- Camera Screen -->
+    <string name="camera_title">ObjectPersona</string>
+    <string name="camera_hint">對準物體，按下拍照</string>
+    <string name="camera_analyzing">辨識中…</string>
+    <string name="camera_permission_required">需要相機權限才能辨識物體</string>
+    <string name="camera_history">歷史物體</string>
+
+    <!-- Persona Screen -->
+    <string name="persona_generating">角色生成中…</string>
+    <string name="persona_welcome_back">歡迎回來！上次我們聊過…</string>
+    <string name="persona_name_label">角色名稱</string>
+    <string name="persona_gender_label">語音性別</string>
+    <string name="persona_gender_male">♂ 男聲</string>
+    <string name="persona_gender_female">♀ 女聲</string>
+    <string name="persona_personality_label">個性關鍵字（最多 5 個）</string>
+    <string name="persona_style_label">說話風格</string>
+    <string name="persona_weakness_label">弱點</string>
+    <string name="persona_background_label">背景故事</string>
+    <string name="persona_free_desc_label">自由描述（選填，追加到角色設定）</string>
+    <string name="persona_free_desc_hint">例如：喜歡在深夜特別話多…</string>
+    <string name="persona_start_chat">開始對話</string>
+    <string name="persona_continue_chat">繼續對話</string>
+    <string name="persona_add_tag">新增</string>
+    <string name="persona_new_tag_hint">新增標籤</string>
+
+    <!-- Chat Screen -->
+    <string name="chat_listening">聆聽中…</string>
+    <string name="chat_recognizing">辨識中…</string>
+    <string name="chat_thinking">思考中…</string>
+    <string name="chat_speaking">說話中…</string>
+    <string name="chat_switch_object">← 換個物體</string>
+    <string name="chat_simulate">🎤 模擬說話（測試用）</string>
+
+    <!-- History Screen -->
+    <string name="history_title">歷史物體</string>
+    <string name="history_empty_title">還沒有互動過的物體</string>
+    <string name="history_empty_hint">拍攝一個物體開始吧！</string>
+    <string name="history_no_chat">尚未開始對話</string>
+
+    <!-- General -->
+    <string name="back">返回</string>
+    <string name="delete">刪除</string>
+    <string name="remove">移除</string>
+
+    <!-- Model Setup Screen -->
+    <string name="setup_checking">正在檢查模型…</string>
+    <string name="setup_loading">模型載入中，請稍候…</string>
+    <string name="setup_ready">模型就緒！</string>
+    <string name="setup_error">模型載入失敗</string>
+    <string name="setup_not_found">未找到模型檔案</string>
+    <string name="setup_download_hint">請下載 Gemma 4 E2B-IT 模型至手機的 Download 資料夾</string>
+    <string name="setup_download_button">📥 前往 HuggingFace 下載</string>
+    <string name="setup_model_filename">檔名: gemma-4-E2B-it.litertlm (~2.58GB)</string>
+    <string name="setup_retry">🔄 重新檢查</string>
+    <string name="setup_skip">跳過，使用離線模式（Mock 資料）</string>
+    <string name="setup_loading_time">首次載入約需 5-10 秒</string>
+</resources>
